@@ -1,0 +1,30 @@
+GET http://localhost:3000/testData
+
+###
+
+GET http://localhost:3000/testData/646e48693a4883c4bdb9ba56
+
+###
+
+POST http://localhost:3000/testData
+Content-Type: application/json
+
+{
+    "key": "Works?",
+    "val": 15
+}
+
+###
+
+DELETE http://localhost:3000/testData/646e48693a4883c4bdb9ba56
+
+
+### 
+
+PATCH http://localhost:3000/testData/646e41f1dab4f832704fa83e
+Content-Type: application/json
+
+{
+    "key": "aight",
+    "val": 10
+}
